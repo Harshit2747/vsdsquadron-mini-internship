@@ -1,4 +1,13 @@
-# Creating a virtual machine in VirtualBox for RISC-V involves downloading a compatible RISC-V disk image and configuring the virtual machine settings to match the architecture requirements. This setup allows users to emulate and run RISC-V-based software on their existing hardware for development and testing purposes.
+# VSD SQUADRON MINI INTERNSHIP
+   summer internship under VLSI SYSTEM DESIGN on RISCV-Architecture and about open source eda tools.
+
+
+
+   .
+
+# TASK-1:
+ * Creating a virtual machine in VirtualBox for RISC-V involves downloading a compatible RISC-V disk image and configuring the virtual machine settings to match the architecture requirements. This setup 
+  allows users to emulate and run RISC-V-based software on their existing hardware for development and testing purposes.
 
 ![WhatsApp Image 2024-05-22 at 11 03 54_0c498e2c](https://github.com/Harshit2747/vsdsquadron-mini-internship/assets/167745025/7162cfc7-fb47-446d-a806-fe53797ce6a0)
 
@@ -43,7 +52,7 @@ if it is not installed,install using below command.
 
 
 
-![Uploading harshit .jpg…]()
+
 
 
 
