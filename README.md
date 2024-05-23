@@ -41,3 +41,19 @@ if it is not installed,install using below command.
 
 ![WhatsApp Image 2024-05-22 at 11 03 31_f8480b3c](https://github.com/Harshit2747/vsdsquadron-mini-internship/assets/167745025/4779e7b0-626a-4796-92b1-b5516493dee1)
 
+
+# write c program
+In leafpad editor to calculate sum of n natural numbers and save it.
+
+
+
+![harshit ](https://github.com/Harshit2747/vsdsquadron-mini-internship/assets/167745025/43a25d8c-7351-4cfe-9a25-fc89b52b915e)
+
+```$gcc sum1ton.c```
+```$ ./a.out```
+* Running the command "gcc sum1ton.c"in a terminal would compile  the c source file "sum1ton.c"using gnu compiler collection.if succesful,it would generate an executable file named"a.out"bydefault.
+
+  ![WhatsApp Image 2024-05-22 at 11 03 31_b038d865](https://github.com/Harshit2747/vsdsquadron-mini-internship/assets/167745025/0ec2032a-0f12-4f03-903b-e226f7704a4a)
+
+
+
