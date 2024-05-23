@@ -27,7 +27,14 @@ install the latest version of VirtualBox.
 
 
 
+LAB BASED TASK 
+open terminal and give this command to open leafpad which is an editor.
 
+```$leafpad sum1ton.c```
+
+if it is not installed,install using below command.
+
+```$sudo install leafpad.```
 
 
 ![WhatsApp Image 2024-05-22 at 11 03 31_f8480b3c](https://github.com/Harshit2747/vsdsquadron-mini-internship/assets/167745025/4779e7b0-626a-4796-92b1-b5516493dee1)
