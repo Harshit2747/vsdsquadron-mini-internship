@@ -1,4 +1,4 @@
-#Creating a virtual machine in VirtualBox for RISC-V involves downloading a compatible RISC-V disk image and configuring the virtual machine settings to match the architecture requirements. This setup allows users to emulate and run RISC-V-based software on their existing hardware for development and testing purposes.
+# Creating a virtual machine in VirtualBox for RISC-V involves downloading a compatible RISC-V disk image and configuring the virtual machine settings to match the architecture requirements. This setup allows users to emulate and run RISC-V-based software on their existing hardware for development and testing purposes.
 
 ![WhatsApp Image 2024-05-22 at 11 03 54_0c498e2c](https://github.com/Harshit2747/vsdsquadron-mini-internship/assets/167745025/7162cfc7-fb47-446d-a806-fe53797ce6a0)
 
@@ -13,7 +13,11 @@
 
 
 
+# Install VirtualBox:
 
+``` sudo apt install virtualbox```
+
+install the latest version of VirtualBox.
    
 
 
