@@ -1,1 +1,0 @@
-# vsdsquadron-mini-internship
