@@ -108,5 +108,6 @@ In the second tab run the same command
 
 
  search for main address in that assembly language code.
-![harshit ](https://github.com/Harshit2747/vsdsquadron-mini-internship/assets/167745025/0ea00cc0-87b2-43c7-9f96-925b7a61ef81)
+![WhatsApp Image 2024-05-23 at 13 33 06_71e3e5c8](https://github.com/Harshit2747/vsdsquadron-mini-internship/assets/167745025/f1e9ec6b-d273-4865-840a-59388cf846c3)
+
 
