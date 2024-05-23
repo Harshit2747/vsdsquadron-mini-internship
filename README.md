@@ -1,8 +1,13 @@
 # VSD SQUADRON MINI INTERNSHIP
    summer internship under VLSI SYSTEM DESIGN on RISCV-Architecture and about open source eda tools.
 
-  * TASK-1:
- * Creating a virtual machine in VirtualBox for RISC-V involves downloading a compatible RISC-V disk image and configuring the virtual machine settings to match the architecture requirements. This setup allows users to emulate and run RISC-V-based software on their existing hardware for development and testing purposes.
+
+
+   .
+
+# TASK-1:
+    * Creating a virtual machine in VirtualBox for RISC-V involves downloading a compatible RISC-V disk image and configuring the virtual machine settings to match the architecture requirements. This setup 
+    allows users to emulate and run RISC-V-based software on their existing hardware for development and testing purposes.
 
 ![WhatsApp Image 2024-05-22 at 11 03 54_0c498e2c](https://github.com/Harshit2747/vsdsquadron-mini-internship/assets/167745025/7162cfc7-fb47-446d-a806-fe53797ce6a0)
 
@@ -60,4 +65,29 @@ In leafpad editor to calculate sum of n natural numbers and save it.
   ![WhatsApp Image 2024-05-22 at 11 03 31_b038d865](https://github.com/Harshit2747/vsdsquadron-mini-internship/assets/167745025/0ec2032a-0f12-4f03-903b-e226f7704a4a)
 
 
+
+
+Give command to open the c program in terminal
+```cat sum1ton.c.```
+
+
+![WhatsApp Image 2024-05-22 at 20 42 33_3b74a474](https://github.com/Harshit2747/vsdsquadron-mini-internship/assets/167745025/bb64f806-fd20-4b71-ad3f-14c1982d80ab)
+
+Give command:-
+```$ riscv64-unknown-elf-gcc-o1 -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c```
+  * This command is compiling a C source file named "sum1ton.c" into an object file named "sum1ton.o" using the RISC-V GCC compiler with optimization level 1 (-O1), specifying the Application Binary 
+   Interface (ABI) as LP64 (-mabi=lp64), and the target architecture as RV64I (-march=rv64i).
+  
+  * -mabi=ilp32: This option specifies the ABI (Application Binary Interface) to use ilp32, which is for a 32-bit integer, long, and pointer size. This ABI is used for 32-bit RISC-V architectures.
+
+Go another tab and give command:-
+```$ riscv64-unknown-elf-objdump -d sum1ton.o```
+it will give bunch of assembly language code.
+
+search the main address in that assembly language code.
+![harshit ](https://github.com/Harshit2747/vsdsquadron-mini-internship/assets/167745025/ee6eec1a-95ca-4567-8597-82c0cb3f4ab8)
+```$ riscv64-unknown-elf-gcc-ofast -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c```
+In the second tab run the same command
+```$ riscv64-unknown-elf-objdump -d sum1ton.c | less```
+ search for main address in that assembly language code.
 
