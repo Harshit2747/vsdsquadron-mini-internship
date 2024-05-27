@@ -121,7 +121,7 @@ In the second tab run the same command
    * It is 32-bit instruction set.it has various instruction some of the basic instruction are R,I,S,B,J.
 
  Identify the istruction types and formats for each RISC-V instruction provided:
-   1. R-Type Instructions (e.g., ADD, SUB, AND, OR, XOR, SLT, SRL, SLL)
+   1. R-Type Instructions(Register/register):-These are instructions use only registers as source and destiantions. This instruction type is mostly used for arithmetic and logic operations involving the ALU. (e.g., ADD, SUB, AND, OR, XOR, SLT, SRL, SLL)
 
    *  Format: funct7 rs2 rs1 funct3 rd opcode
    *  Length: 32 bits
@@ -136,7 +136,8 @@ In the second tab run the same command
 
   
 
-  2. I-type Instruction(e.g.,ADDI,LW)
+  2. I-type Instruction(Immediate):-These are instructions has one of the two source operands specified within the 32-bit instruction word as a 12-bit constant (or immediate). This constant is regards as 12-bit signed 2’s complement number, which is always sign extended to form a 32-bit operand  (e.g.,ADDI,LW)
+     
      * Format: imm[11:0] rs1 funct3 rd opcode
      * Example: ADDI r12, r4, 5
 
@@ -147,7 +148,7 @@ In the second tab run the same command
     *rd      = 01100 (12)
     *opcode  = 0010011
 
- 3. S-Type Instructions (e.g., SW)
+ 3. S-Type Instructions:-These instructions are exclusively used for storing contents of a register to data memory. (e.g., SW)
 
  *  Format: imm[11:5] rs2 rs1 funct3 imm[4:0] opcode
  *  Example: SW r3, r1, 2
@@ -158,7 +159,7 @@ In the second tab run the same command
         funct3  = 010
         imm     = 00010 (2)
         opcode  = 0100011
-  4. B-Type Instructions (e.g., BNE, BEQ)
+  4. B-Type Instructions:-These instructions are used to control program flow. It compares two operands stored in registers and branch to a destination address relative to the current Program Counter value. (e.g., BNE, BEQ)
 
    * Format: imm[12|10:5] rs2 rs1 funct3 imm[4:1|11] opcode
    * Example: BNE r0, r1, 20
