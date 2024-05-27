@@ -134,6 +134,28 @@ In the second tab run the same command
     *rd      = 00110 (6)
     *opcode  = 0110011
 
-   *  32-bit code: 0000000 00010 00001 000 00110 0110011 = 0x000102B3
+  
 
   2. I-type Instruction(e.g.,ADDI,LW)
+     * Format: imm[11:0] rs1 funct3 rd opcode
+     * Example: ADDI r12, r4, 5
+
+
+    *imm     = 000000000101 (5)
+    *rs1     = 00100 (4)
+    *funct3  = 000
+    *rd      = 01100 (12)
+    *opcode  = 0010011
+
+ 3. S-Type Instructions (e.g., SW)
+
+ *  Format: imm[11:5] rs2 rs1 funct3 imm[4:0] opcode
+ *  Example: SW r3, r1, 2
+
+        imm     = 0000000 00010 (2)
+        rs2     = 00011 (3)
+        rs1     = 00001 (1)
+        funct3  = 010
+        imm     = 00010 (2)
+        opcode  = 0100011  
+ 
