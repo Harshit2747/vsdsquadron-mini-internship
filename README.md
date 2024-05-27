@@ -171,6 +171,8 @@ In the second tab run the same command
     opcode  = 1100011  
 
 32-bit Instruction Codes
+
+
 1.ADD r6, r2, r1
 
  * R-Type
