@@ -111,3 +111,29 @@ In the second tab run the same command
 ![WhatsApp Image 2024-05-23 at 13 33 06_71e3e5c8](https://github.com/Harshit2747/vsdsquadron-mini-internship/assets/167745025/f1e9ec6b-d273-4865-840a-59388cf846c3)
 
 
+
+
+
+# TASK-2
+
+ ABOUT RISC-V SPECIFICATION
+ 
+   * It is 32-bit instruction set.it has various instruction some of the basic instruction are R,I,S,B,J.
+
+ Identify the istruction types and formats for each RISC-V instruction provided:
+   1. R-Type Instructions (e.g., ADD, SUB, AND, OR, XOR, SLT, SRL, SLL)
+
+   *  Format: funct7 rs2 rs1 funct3 rd opcode
+   *  Length: 32 bits
+   *  Example: ADD r6, r2, r1
+
+    *funct7  = 0000000
+    *rs2     = 00010 (2)
+    *rs1     = 00001 (1)
+    *funct3  = 000
+    *rd      = 00110 (6)
+    *opcode  = 0110011
+
+   *  32-bit code: 0000000 00010 00001 000 00110 0110011 = 0x000102B3
+
+  2. I-type Instruction(e.g.,ADDI,LW)
