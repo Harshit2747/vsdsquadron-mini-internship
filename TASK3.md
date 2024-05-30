@@ -38,6 +38,10 @@ simulate and run the code ,using following command:-
     $ iverilog -o vsdsquadron-mini-internship Harshit_rv32i.v Harshit_rv32i_tb.v
     $ ./vsdsquadron-mini-internship
 
+
+![WhatsApp Image 2024-05-30 at 13 12 35_afa0d07a](https://github.com/Harshit2747/vsdsquadron-mini-internship/assets/167745025/0014ccf1-2a14-4ee9-918f-4dda99fb9c32)
+
+
  For output waveform give following command:-
 
     $ gtkwave Harshit_rv32i.vcd
