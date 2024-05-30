@@ -301,3 +301,70 @@ simulate and run the code ,using following command:-
  For output waveform give following command:-
 
     $ gtkwave Harshit_rv32i.vcd
+
+3.Analyze the wave form of each instruction using gtkwave.
+
+following instruction are:-
+    1.ADD r6, r2, r1
+    2.SUB r7, r1, r2
+    3.AND r8, r1, r3
+    4.OR r9, r2, r5
+    5.XOR r10, r1, r4
+    6.SLT r11, r2, r4
+    7.ADDI r12, r4, 5
+    8.SW r3, r1, 2
+    9.SRL r16, r14, r2
+    10.BEQ r0, r0, 15
+  
+
+Let's analyze:-
+
+    1.ADD r6, r2, r1
+    
+![WhatsApp Image 2024-05-30 at 11 01 01_92ca8ece](https://github.com/Harshit2747/vsdsquadron-mini-internship/assets/167745025/2017e4d0-fbfe-4cfa-805e-98505d23481d)
+
+    2.SUB r7, r1, r2
+    
+ ![WhatsApp Image 2024-05-30 at 11 03 12_d5baf988](https://github.com/Harshit2747/vsdsquadron-mini-internship/assets/167745025/097c3d64-c828-4ca5-bc36-bac158313fde)
+
+    3.AND r8, r1, r3
+
+![WhatsApp Image 2024-05-30 at 11 06 31_b093e69e](https://github.com/Harshit2747/vsdsquadron-mini-internship/assets/167745025/98d34fba-a45c-4c09-ade5-bd720d48ed18)
+
+    4.OR r9, r2, r5
+
+![WhatsApp Image 2024-05-30 at 11 01 05_d461ada0](https://github.com/Harshit2747/vsdsquadron-mini-internship/assets/167745025/ec1c9312-10ae-45f0-b597-b177c1e3d939)
+
+    5.XOR r10, r1, r4
+
+![WhatsApp Image 2024-05-30 at 11 01 05_feaa4380](https://github.com/Harshit2747/vsdsquadron-mini-internship/assets/167745025/5aaa76ef-8f9f-4fdd-a26f-2fc59fe0fcf6)
+
+    6.SLT r11, r2, r4
+
+![WhatsApp Image 2024-05-30 at 11 01 06_e0834270](https://github.com/Harshit2747/vsdsquadron-mini-internship/assets/167745025/161cbaf4-e736-45d3-9a0a-77bc99218371)
+
+    7.ADDI r12, r4, 5
+
+![WhatsApp Image 2024-05-30 at 11 01 07_feec8365](https://github.com/Harshit2747/vsdsquadron-mini-internship/assets/167745025/5bc4b5fa-a1fd-440f-ac12-531f8f378410)
+
+    8.SW r3, r1, 2
+
+![WhatsApp Image 2024-05-30 at 11 01 06_7cb6d5a3](https://github.com/Harshit2747/vsdsquadron-mini-internship/assets/167745025/a6743ab9-1cfa-48db-ae51-610a4e28f444)
+
+
+
+
+    
+
+    
+
+    
+
+    
+  
+    
+    
+    
+ 
+
+
