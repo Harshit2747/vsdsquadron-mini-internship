@@ -261,5 +261,43 @@ In the second tab run the same command
   * 0000000 00010 00001 001 01111 0110011
   * 0x002102B3 
 
- 
- 
+
+
+ # TASK-3
+
+ Functional simulation experiment using RISC-V Core Verilog netlist and testbench.
+   *  IVERILOG:-Icarus Verilog, commonly referred to as IVerilog, is an open-source Verilog simulation and synthesis tool. It supports a wide range of Verilog standards and is used for designing and testing digital circuits. IVerilog is popular for its flexibility, allowing users to simulate complex designs and generate netlists for various FPGA and ASIC platforms. It is widely used in both educational and professional settings for hardware design and verification.
+
+   *  GTKWAVE:- GTKWave is an open-source waveform viewer used for visualizing simulation results from digital circuit designs. It is commonly used in conjunction with simulation tools like Icarus Verilog.It is a fully featured GTK+ based waveform viewer for Unix and Win32, capable of displaying signal waveforms dumped in a variety of formats.
+
+     
+1. 
+INSTALL IVERILOG:
+using follwing command:-
+
+    $ sudo apt install iverilog 
+    
+   ![WhatsApp Image 2024-05-30 at 10 37 45_581f3968](https://github.com/Harshit2747/vsdsquadron-mini-internship/assets/167745025/4c7e1e0f-76f2-472a-a68d-ff6ee5a3e6d6)
+
+INSTALL GTKWAVE:
+using following command:-
+
+    $ sudo apt install iverilog gtkwave
+    
+![WhatsApp Image 2024-05-30 at 10 39 56_5bbda749](https://github.com/Harshit2747/vsdsquadron-mini-internship/assets/167745025/a782e8e3-d10b-4128-bcd7-5d2b2f77f9c6)
+
+2. created the verilog file and testbench file in github repository.
+
+cloned it to machine using following command:-
+
+    $ git clone https://github.com/Harshit2747/vsdsquadron-mini-internship
+    $ cd vsdsquadron-mini-internship
+
+simulate and run the code ,using following command:-
+
+    $ iverilog -o vsdsquadron-mini-internship Harshit_rv32i.v Harshit_rv32i_tb.v
+    $ ./vsdsquadron-mini-internship
+
+ For output waveform give following command:-
+
+    $ gtkwave Harshit_rv32i.vcd
