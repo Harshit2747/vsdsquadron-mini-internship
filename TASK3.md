@@ -38,7 +38,7 @@ simulate and run the code ,using following command:-
     $ iverilog -o vsdsquadron-mini-internship Harshit_rv32i.v Harshit_rv32i_tb.v
     $ ./vsdsquadron-mini-internship
     
-And  For output waveform give following command:-
+And for output waveform give following command:-
 
     $ gtkwave Harshit_rv32i.vcd
 
