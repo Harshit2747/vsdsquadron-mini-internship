@@ -313,7 +313,7 @@ following instruction are:-
     6.SLT r11, r2, r4
     7.ADDI r12, r4, 5
     8.SW r3, r1, 2
-    9.SRL r16, r14, r2
+    9.LW r13, r1, 2
     10.BEQ r0, r0, 15
   
 
@@ -350,6 +350,22 @@ Let's analyze:-
     8.SW r3, r1, 2
 
 ![WhatsApp Image 2024-05-30 at 11 01 06_7cb6d5a3](https://github.com/Harshit2747/vsdsquadron-mini-internship/assets/167745025/a6743ab9-1cfa-48db-ae51-610a4e28f444)
+
+
+    9.LW r13, r1, 2
+
+
+![WhatsApp Image 2024-05-30 at 11 01 07_251ec2d6](https://github.com/Harshit2747/vsdsquadron-mini-internship/assets/167745025/76491557-19a2-4626-9747-65935a30cbf7)
+
+
+    10.BEQ r0, r0, 15
+
+
+![WhatsApp Image 2024-05-30 at 11 01 07_23c3b37f](https://github.com/Harshit2747/vsdsquadron-mini-internship/assets/167745025/24400d56-1a99-42c6-8f30-6db46e5b92f4)
+
+    
+
+    
 
 
 
