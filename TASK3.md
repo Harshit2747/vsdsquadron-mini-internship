@@ -41,16 +41,25 @@ simulate and run the code ,using following command:-
 3.Analyze the wave form of each instruction using gtkwave.
 
 following instruction are:-
-    1.ADD r6, r2, r1
-    2.SUB r7, r1, r2
-    3.AND r8, r1, r3
-    4.OR r9, r2, r5
-    5.XOR r10, r1, r4
-    6.SLT r11, r2, r4
-    7.ADDI r12, r4, 5
-    8.SW r3, r1, 2
-    9.SRL r16, r14, r2
-    10.BEQ r0, r0, 15
+   1.ADD r6, r2, r1
+    
+   2.SUB r7, r1, r2
+    
+   3.AND r8, r1, r3
+   
+   4.OR r9, r2, r5
+    
+   5.XOR r10, r1, r4
+    
+   6.SLT r11, r2, r4
+    
+   7.ADDI r12, r4, 5
+    
+   8.SW r3, r1, 2
+    
+   9.SRL r16, r14, r2
+    
+   10.BEQ r0, r0, 15
   
 
 Let's analyze:-
