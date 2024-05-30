@@ -29,6 +29,10 @@ cloned it to machine using following command:-
     $ git clone https://github.com/Harshit2747/vsdsquadron-mini-internship
     $ cd vsdsquadron-mini-internship
 
+
+![WhatsApp Image 2024-05-30 at 13 12 36_911b1292](https://github.com/Harshit2747/vsdsquadron-mini-internship/assets/167745025/2bad89ed-c164-4302-a98d-1d6385a4c269)
+    
+
 simulate and run the code ,using following command:-
 
     $ iverilog -o vsdsquadron-mini-internship Harshit_rv32i.v Harshit_rv32i_tb.v
