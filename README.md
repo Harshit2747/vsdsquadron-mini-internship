@@ -306,15 +306,24 @@ simulate and run the code ,using following command:-
 
 following instruction are:-
     1.ADD r6, r2, r1
-    2.SUB r7, r1, r2
-    3.AND r8, r1, r3
-    4.OR r9, r2, r5
-    5.XOR r10, r1, r4
-    6.SLT r11, r2, r4
-    7.ADDI r12, r4, 5
-    8.SW r3, r1, 2
-    9.LW r13, r1, 2
-    10.BEQ r0, r0, 15
+    
+   2.SUB r7, r1, r2
+   
+   3.AND r8, r1, r3
+   
+   4.OR r9, r2, r5
+   
+   5.XOR r10, r1, r4
+   
+   6.SLT r11, r2, r4
+   
+   7.ADDI r12, r4, 5
+   
+   8.SW r3, r1, 2
+   
+   9.LW r13, r1, 2
+   
+   10.BEQ r0, r0, 15
   
 
 Let's analyze:-
