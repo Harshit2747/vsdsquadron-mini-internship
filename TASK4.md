@@ -88,26 +88,43 @@ Output Connections:
 
 # Table for Pin Connection:-
 
- RISC-V Board
-        -------------------------
-       |                         |
-       |  PC0 - o---- A0         |
-       |  PC1 - o---- A1         |
-       |  PC2 - o---- A2         |
-       |  PC3 - o---- A3         |
-       |                         |
-       |  PD0 - o---- B0         |
-       |  PD1 - o---- B1         |
-       |  PD2 - o---- B2         |
-       |  PD3 - o---- B3         |
-       |                         |
-       |  PE0 - o---- A > B (LED with resistor) |
-       |  PE1 - o---- A = B (LED with resistor) |
-       |  PE2 - o---- A < B (LED with resistor) |
-       |                         |
-       |    Vcc - o---- +5V      |
-       |    GND - o---- GND      |
-        -------------------------
+
+     ---------------------
+       
+   |  PC0 - o---- A0         |
+       
+   |  PC1 - o---- A1         |
+       
+   |  PC2 - o---- A2         |
+       
+   |  PC3 - o---- A3         |
+
+   |                         |
+       
+   |  PD0 - o---- B0         |
+       
+   |  PD1 - o---- B1         |
+       
+   |  PD2 - o---- B2         |
+       
+   |  PD3 - o---- B3         |
+      
+   |                         |
+       
+   |  PE0 - o---- A > B (LED with resistor) |
+       
+   |  PE1 - o---- A = B (LED with resistor) |
+       
+      
+   |  PE2 - o---- A < B (LED with resistor) |
+       
+   |                         |
+       
+   |    Vcc - o---- +5V      |
+       
+   |    GND - o---- GND      |
+       
+   -------------------------
 
 
 
