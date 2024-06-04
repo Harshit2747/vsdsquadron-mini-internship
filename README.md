@@ -385,6 +385,63 @@ Let's analyze:-
     
 
 
+# TASK-4 (PROJECT)
+
+make mini project on vsdsquadron mini board to understandthe board overview
+ 
+ # 4-bit comparator.
+
+ A 4-bit comparator is a digital circuit that compares two 4-bit binary numbers and determines their relative magnitudes. It outputs signals that indicate whether one number is greater than, equal to, or less than the other. Comparators are fundamental components in digital systems, used in a variety of applications such as sorting algorithms, digital logic design, and microprocessor-based systems.
+
+Overview of a 4-bit Comparator
+Functionality
+A 4-bit comparator takes two 4-bit inputs (let's call them A and B) and produces three outputs:
+
+A > B (A is greater than B)
+A = B (A is equal to B)
+A < B (A is less than B)
+Each of these outputs is a binary signal (0 or 1) indicating the result of the comparison.
+
+Inputs and Outputs
+Inputs:
+
+A3, A2, A1, A0 (4 bits representing the first number A)
+B3, B2, B1, B0 (4 bits representing the second number B)
+Outputs:
+
+A > B (High if A is greater than B, otherwise Low)
+A = B (High if A is equal to B, otherwise Low)
+A < B (High if A is less than B, otherwise Low)
+
+
+# components required:-
+  1. Vsdsquadron mini board 
+  2. Breadboard
+  3. Jumper wires
+  4. 3 leds and resister
+  5. 8 push buttons
+
+
+
+# Truth Table:
+
+![WhatsApp Image 2024-06-04 at 06 20 19_28b55529](https://github.com/Harshit2747/vsdsquadron-mini-internship/assets/167745025/93c9137b-6e29-46cf-a78b-2c4bd595dc1c)
+
+
+# Circuit Diagram:-
+
+![WhatsApp Image 2024-06-04 at 06 20 56_11113299](https://github.com/Harshit2747/vsdsquadron-mini-internship/assets/167745025/4be7cf9c-637a-4460-bcaa-9e743a60f5dc)
+
+
+
+
+
+
+
+
+
+
+
 
 
     
