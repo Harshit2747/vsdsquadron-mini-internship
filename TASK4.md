@@ -89,7 +89,7 @@ Output Connections:
 # Table for Pin Connection:-
 
 
-     ---------------------
+   ---------------------
        
    |  PC0 - o---- A0         |
        
