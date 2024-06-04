@@ -81,6 +81,7 @@ Output Connections:
 # Pinout Diagram for 4-bit comparator:-
 
 
+![WhatsApp Image 2024-06-04 at 07 17 32_f3f6c307](https://github.com/Harshit2747/vsdsquadron-mini-internship/assets/167745025/56482d69-ab8d-4703-a485-6467a85e9fcc)
 
 
 
