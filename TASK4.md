@@ -61,9 +61,9 @@ Output Connections:
 * The outputs of the comparator indicate whether A is greater than, equal to, or less than B.
 * These outputs are connected to three GPIO pins on the RISC-V board, assumed here to be PE0, PE1, and PE2 respectively.
 * LEDs (with appropriate current-limiting resistors) can be connected to these GPIO pins to visualize the output:
-* PE0 indicates A > B (LED will light up if A is greater than B).
-* PE1 indicates A = B (LED will light up if A is equal to B).
-* PE2 indicates A < B (LED will light up if A is less than B).
+* PC4 indicates A > B (LED will light up if A is greater than B).
+* PC5 indicates A = B (LED will light up if A is equal to B).
+* PC6 indicates A < B (LED will light up if A is less than B).
 
 
 # Truth Table:
@@ -111,12 +111,12 @@ Output Connections:
       
    |                         |
        
-   |  PE0 - o---- A > B (LED with resistor) |
+   |  PC4 - o---- A > B (LED with resistor) |
        
-   |  PE1 - o---- A = B (LED with resistor) |
+   |  PC5 - o---- A = B (LED with resistor) |
        
       
-   |  PE2 - o---- A < B (LED with resistor) |
+   |  PC6 - o---- A < B (LED with resistor) |
        
    |                         |
        
