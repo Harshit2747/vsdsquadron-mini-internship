@@ -62,6 +62,16 @@
 
 # Project Demonstration:
 
+
+# working:-
+
+* PD4 is connected with Green LED. if (a > b) then led will blink.
+
+* PD5 is connected with multicolor LED. if (a = b) then led will blink
+
+* PD6 is connected with White LED. if (a < b) then led will blink
+
+
  
 https://github.com/Harshit2747/vsdsquadron-mini-internship/assets/167745025/5d9742d2-6bad-4a8f-8a66-61ae7bab9e12
 
