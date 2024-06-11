@@ -486,6 +486,8 @@ Output Connections:
        
    -------------------------
 
+# TASK-5
+
 
 
 # Code for implementation of 4-bit comparator using VSDSquadron Mini Board(.C Code):
