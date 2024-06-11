@@ -495,9 +495,13 @@ Output Connections:
 #include <debug.h>
 #include<stdio.h>
 
+
 #define LED1_PIN GPIO_Pin_4 //GreenLED
+
 #define LED2_PIN GPIO_Pin_5 //Multicolor LED
+
 #define LED3_PIN GPIO_Pin_6 //white LED
+
 #define LED_PORT GPIOD
 
 void GPIO_Config(void) {
@@ -506,11 +510,16 @@ void GPIO_Config(void) {
    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOD, ENABLE);
 
  // Configure PD4, PD5, and PD6 as outputs
-    GPIO_InitTypeDef GPIO_InitStructure;
-    GPIO_InitStructure.GPIO_Pin = LED1_PIN | LED2_PIN | LED3_PIN ;
-    GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP; // Push-pull output
-    GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
-    GPIO_Init(LED_PORT, &GPIO_InitStructure);
+   
+   GPIO_InitTypeDef GPIO_InitStructure;
+    
+ GPIO_InitStructure.GPIO_Pin = LED1_PIN | LED2_PIN | LED3_PIN ;
+    
+   GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP; // Push-pull output
+    
+ GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+    
+   GPIO_Init(LED_PORT, &GPIO_InitStructure);
 }
 
 void compare_4bit(uint8_t a, uint8_t b) {
@@ -530,19 +539,26 @@ void compare_4bit(uint8_t a, uint8_t b) {
     
 }  
 
-int main(void) {   
-    NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);
-    SystemCoreClockUpdate();
-    Delay_Init();
+int main(void) { 
+   
+   NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);
+   
+   SystemCoreClockUpdate();
+   
+   Delay_Init();
     // Initialize the GPIO for the LEDs
-    GPIO_Config();
+    
+   GPIO_Config();
 
 
   
    for (uint8_t a = 0; a <= 15; a++) {
-        for (uint8_t b = 0; b <= 15; b++) {
-            compare_4bit(a, b);
-            Delay_Ms(800); // Delay for visualization
+   
+   for (uint8_t b = 0; b <= 15; b++) {
+   
+   compare_4bit(a, b);
+          
+   Delay_Ms(800); // Delay for visualization
         }
     }
     
