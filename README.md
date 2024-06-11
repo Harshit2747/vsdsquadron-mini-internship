@@ -554,7 +554,7 @@ Output Connections:
 # Project Demonstration:
 
  
-
+https://github.com/Harshit2747/vsdsquadron-mini-internship/assets/167745025/7e6e10c6-49d2-4599-90a3-f60fff0848ec
 
 
 
