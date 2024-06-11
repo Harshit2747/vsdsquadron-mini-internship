@@ -503,9 +503,9 @@ Output Connections:
 void GPIO_Config(void) {
     // Enable the clock for GPIOD
 
-    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOD, ENABLE);
+   RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOD, ENABLE);
 
-    // Configure PD4, PD5, and PD6 as outputs
+ // Configure PD4, PD5, and PD6 as outputs
     GPIO_InitTypeDef GPIO_InitStructure;
     GPIO_InitStructure.GPIO_Pin = LED1_PIN | LED2_PIN | LED3_PIN ;
     GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP; // Push-pull output
@@ -517,7 +517,7 @@ void compare_4bit(uint8_t a, uint8_t b) {
     // Clear all LEDs
     GPIO_ResetBits(LED_PORT, LED1_PIN | LED2_PIN | LED3_PIN);
 
-    if (a > b) {
+ if (a > b) {
       // Light up LED1 if a > b
         GPIO_SetBits(LED_PORT, LED1_PIN);
     } else if (a == b) {
@@ -539,14 +539,14 @@ int main(void) {
 
 
   
-     for (uint8_t a = 0; a <= 15; a++) {
+   for (uint8_t a = 0; a <= 15; a++) {
         for (uint8_t b = 0; b <= 15; b++) {
             compare_4bit(a, b);
             Delay_Ms(800); // Delay for visualization
         }
     }
     
-    return 0;
+  return 0;
 }
 
     
