@@ -458,7 +458,8 @@ Output Connections:
 
 
 
-![WhatsApp Image 2024-06-04 at 07 17 32_f3f6c307](https://github.com/Harshit2747/vsdsquadron-mini-internship/assets/167745025/ed997a8f-7ff5-4603-b562-6a7cce72db8c)
+![image](https://github.com/Harshit2747/vsdsquadron-mini-internship/assets/167745025/25e2b785-2329-4377-b09f-f37b4441f6f4)
+
 
 
 
