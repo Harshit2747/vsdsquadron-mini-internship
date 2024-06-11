@@ -444,7 +444,8 @@ Output Connections:
 
 # Truth Table:
 
-![WhatsApp Image 2024-06-04 at 06 20 19_28b55529](https://github.com/Harshit2747/vsdsquadron-mini-internship/assets/167745025/93c9137b-6e29-46cf-a78b-2c4bd595dc1c)
+![Screenshot (152)](https://github.com/Harshit2747/vsdsquadron-mini-internship/assets/167745025/6a83e3ec-5c81-4c6d-b052-bc229caa3c84)
+
 
 
 # Logic Diagram:-
