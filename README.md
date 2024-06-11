@@ -437,9 +437,9 @@ Output Connections:
 * The outputs of the comparator indicate whether A is greater than, equal to, or less than B.
 * These outputs are connected to three GPIO pins on the RISC-V board, assumed here to be Pd4,pd5,pd6 respectively.
 * LEDs (with appropriate current-limiting resistors) can be connected to these GPIO pins to visualize the output:
-* PD4 indicates A > B (LED will light up if A is greater than B).
-* PD5 indicates A = B (LED will light up if A is equal to B).
-* PD6 indicates A < B (LED will light up if A is less than B).
+* PD4 indicates A > B (LED will light up green if A is greater than B).
+* PD5 indicates A = B (LED will light up multicolor if A is equal to B).
+* PD6 indicates A < B (LED will light up white if A is less than B).
 
 
 # Truth Table:
