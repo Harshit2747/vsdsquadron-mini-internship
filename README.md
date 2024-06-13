@@ -563,6 +563,8 @@ Output Connections:
 
 * PD6 is connected with White LED. if a < b then led will blink
 
+
+# Video link:-
  
 
 https://drive.google.com/file/d/1ZZe_VZlGNjKDlnDZEEmwOvLtBTvSrJUb/view?usp=drivesdk
