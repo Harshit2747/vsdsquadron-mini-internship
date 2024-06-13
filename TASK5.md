@@ -74,7 +74,12 @@
 
 
 
-https://github.com/Harshit2747/vsdsquadron-mini-internship/assets/167745025/3eb47f1c-8ced-4347-ac04-cdd568767961
+# Video link:-
+
+
+
+
+https://drive.google.com/file/d/1ZZe_VZlGNjKDlnDZEEmwOvLtBTvSrJUb/view?usp=drivesdk
 
     
 
